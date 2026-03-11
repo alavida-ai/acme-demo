@@ -4,11 +4,15 @@ Standalone demo monorepo for manually exercising `agentpack` and related tools.
 
 ## Hero Flow
 
+If this repo is checked out as a submodule inside `agentpack`, run:
+
 ```bash
-node ../agentpack/bin/agentpack.js skills inspect domains/brand/skills/copywriting
-node ../agentpack/bin/agentpack.js skills validate domains/brand/skills/copywriting
-node ../agentpack/bin/agentpack.js skills dev domains/brand/skills/copywriting
+node ../../bin/agentpack.js skills inspect domains/brand/skills/copywriting
+node ../../bin/agentpack.js skills validate domains/brand/skills/copywriting
+node ../../bin/agentpack.js skills dev domains/brand/skills/copywriting
 ```
+
+If this repo is checked out standalone, run the same commands against your local `agentpack` checkout by replacing `../../bin/agentpack.js` with the path to your local `bin/agentpack.js`.
 
 Edit `domains/brand/knowledge/tone-of-voice.md` to trigger stale-state and workbench refresh behavior.
 
