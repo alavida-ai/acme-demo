@@ -1,0 +1,44 @@
+{
+  "version": 1,
+  "skills": {
+    "@acme/brand-copywriting": {
+      "name": "brand-copywriting",
+      "description": "Acme website and campaign copywriting guidance.",
+      "path": "domains/brand/skills/copywriting",
+      "skill_file": "domains/brand/skills/copywriting/SKILL.md",
+      "package_name": "@acme/brand-copywriting",
+      "package_version": "1.0.0",
+      "sources": [
+        "domains/brand/knowledge/tone-of-voice.md",
+        "domains/brand/knowledge/value-propositions.md",
+        "domains/brand/knowledge/proof-points.md"
+      ],
+      "requires": [
+        "@acme/interview-research",
+        "@acme/editorial-principles"
+      ]
+    },
+    "@acme/editorial-principles": {
+      "name": "editorial-principles",
+      "description": "Editorial rules for Acme writing quality.",
+      "path": "domains/methodology/skills/editorial-principles",
+      "skill_file": "domains/methodology/skills/editorial-principles/SKILL.md",
+      "package_name": "@acme/editorial-principles",
+      "package_version": "1.0.0",
+      "sources": [],
+      "requires": []
+    },
+    "@acme/interview-research": {
+      "name": "interview-research",
+      "description": "Research helper for extracting claims and evidence.",
+      "path": "domains/research/skills/interview-research",
+      "skill_file": "domains/research/skills/interview-research/SKILL.md",
+      "package_name": "@acme/interview-research",
+      "package_version": "1.0.0",
+      "sources": [],
+      "requires": [
+        "@acme/editorial-principles"
+      ]
+    }
+  }
+}

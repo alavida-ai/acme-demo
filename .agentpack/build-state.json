@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "skills": {
+    "@acme/brand-copywriting": {
+      "package_version": "1.0.0",
+      "skill_path": "domains/brand/skills/copywriting",
+      "skill_file": "domains/brand/skills/copywriting/SKILL.md",
+      "sources": {
+        "domains/brand/knowledge/tone-of-voice.md": {
+          "hash": "sha256:6c44151c24637f01e4610b85da2ca2cdfa0870c1bc811dd462457bad80e9fe44"
+        },
+        "domains/brand/knowledge/value-propositions.md": {
+          "hash": "sha256:4df69019f4e86ab5649b49f2ce84c435f651f5a378874aa958a138d961d0320b"
+        },
+        "domains/brand/knowledge/proof-points.md": {
+          "hash": "sha256:9bc0853cf1eb0ddb4493fbd189f85bc424c4424a6a7e31d2c79d3d88a3bdec2f"
+        }
+      },
+      "requires": [
+        "@acme/interview-research",
+        "@acme/editorial-principles"
+      ]
+    },
+    "@acme/editorial-principles": {
+      "package_version": "1.0.0",
+      "skill_path": "domains/methodology/skills/editorial-principles",
+      "skill_file": "domains/methodology/skills/editorial-principles/SKILL.md",
+      "sources": {},
+      "requires": []
+    },
+    "@acme/interview-research": {
+      "package_version": "1.0.0",
+      "skill_path": "domains/research/skills/interview-research",
+      "skill_file": "domains/research/skills/interview-research/SKILL.md",
+      "sources": {},
+      "requires": [
+        "@acme/editorial-principles"
+      ]
+    }
+  }
+}
