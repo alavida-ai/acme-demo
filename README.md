@@ -16,5 +16,5 @@ If this repo is checked out standalone, run the same commands against your local
 
 Edit `domains/brand/knowledge/tone-of-voice.md` to trigger stale-state and workbench refresh behavior.
 
-Local workbench skills under `workbenches/website-dev/skills/` require packaged skills under `domains/**/skills/`.
+Local workbench skills under `domains/brand/workbenches/website-dev/skills/` require packaged skills under `domains/**/skills/`.
 The packaged skills attach source provenance through `metadata.sources` so the workbench DAG can show both dependency and provenance edges.
