@@ -1,0 +1,9 @@
+{
+  "name": "@acme/research-engine",
+  "version": "1.0.0",
+  "files": ["SKILL.md"],
+  "dependencies": {
+    "@acme/data-extraction": "^1.0.0",
+    "@acme/seo-audit": "^1.0.0"
+  }
+}

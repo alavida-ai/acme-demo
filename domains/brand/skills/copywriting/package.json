@@ -1,9 +1,0 @@
-{
-  "name": "@acme/brand-copywriting",
-  "version": "1.0.0",
-  "files": ["SKILL.md"],
-  "dependencies": {
-    "@acme/interview-research": "^1.0.0",
-    "@acme/editorial-principles": "^1.0.0"
-  }
-}

@@ -1,0 +1,10 @@
+{
+  "name": "@acme/data-extraction",
+  "version": "1.0.0",
+  "files": ["SKILL.md"],
+  "dependencies": {
+    "@acme/parser-core": "^1.0.0",
+    "@acme/html-renderer": "^1.0.0",
+    "@acme/scoring-engine": "^1.0.0"
+  }
+}

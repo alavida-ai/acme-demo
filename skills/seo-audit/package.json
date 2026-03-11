@@ -1,0 +1,10 @@
+{
+  "name": "@acme/seo-audit",
+  "version": "1.0.0",
+  "files": ["SKILL.md"],
+  "dependencies": {
+    "@acme/scoring-engine": "^1.0.0",
+    "@acme/crawl-utils": "^1.0.0",
+    "@acme/html-renderer": "^1.0.0"
+  }
+}

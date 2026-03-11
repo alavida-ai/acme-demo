@@ -1,8 +1,0 @@
-{
-  "name": "@acme/interview-research",
-  "version": "1.0.0",
-  "files": ["SKILL.md"],
-  "dependencies": {
-    "@acme/editorial-principles": "^1.0.0"
-  }
-}
